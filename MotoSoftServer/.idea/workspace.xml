@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e432b236-0baa-4ec4-97b2-5552d126579d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/FormTKNVController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/FormTraHangController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/mapper/PhieuTraHangMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/libs/MotoSoft.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/libs/MotoSoft.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/FormDanhMucSanPhamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/FormDanhMucSanPhamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/FormDonNhapHangController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/FormDonNhapHangController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/FormNhaCungCapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/FormNhaCungCapController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/FormQuanLyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/FormQuanLyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/FormThemHinhAnh.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/FormThemHinhAnh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/FormVaiTro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/FormVaiTroController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/PageBanHangController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/PageBanHangController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/PageChucVuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/PageChucVuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/PageDonHangController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/PageDonHangController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/PageDonNhapHangController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/PageDonNhapHangController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/PageHoaDonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/PageHoaDonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/PageSanPhamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/PageSanPhamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/PageTaiKhoanNhanVienController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/PageTaiKhoanNhanVienController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/PageThongKeDoanhThuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/PageThongKeDoanhThuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/PageVaiTroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/controller/PageVaiTroController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/cus_comp/ChiTietDonNhapHangItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/cus_comp/ChiTietDonNhapHangItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/cus_comp/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/cus_comp/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/cus_comp/VaiTroNhomQuyenItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/cus_comp/VaiTroNhomQuyenItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/excel_processing/ProductExcelProcessing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/excel_processing/ProductExcelProcessing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/mapper/ChiTietDonNhapHangMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/mapper/ChiTietDonNhapHangMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/mapper/DonHangMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/mapper/DonHangMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/model/ChiTietDonNhapHangProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/model/ChiTietDonNhapHangProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/model/DonHangProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/java/com/example/fashionshop/model/DonHangProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/cus_comp_views/chi-tiet-don-nhap-hang-item.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/cus_comp_views/chi-tiet-don-nhap-hang-item.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/cus_comp_views/image-item.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/cus_comp_views/image-item.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/cus_comp_views/order-item.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/cus_comp_views/order-item.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/pages/page-don-nhap-hang.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/pages/page-don-nhap-hang.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/pages/page-tai-khoan-nhan-vien.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/pages/page-tai-khoan-nhan-vien.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/pages/page-vai-tro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/pages/page-vai-tro.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/views/form-don-nhap-hang.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/views/form-don-nhap-hang.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/views/form-kiem-ke.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/views/form-kiem-ke.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/views/form-nha-cung-cap.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/views/form-nha-cung-cap.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/views/form-san-pham.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/views/form-san-pham.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/views/form-tai-khoan-nhan-vien.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/views/form-tai-khoan-nhan-vien.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/views/form-thong-tin-tai-khoan.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoft/src/main/resources/com/example/fashionshop/views/form-thong-tin-tai-khoan.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HgQiuAdAaF8IPPsfFOlH1BIzEv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Lap trinh phan tan Java/BTL_LTPT_JAVA_HIBERNATE - Copy/FashionShopServer&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Lap trinh phan tan Java\BTL_LTPT_JAVA_HIBERNATE\FashionShopServer" />
+      <recent name="D:\Lap trinh phan tan Java\BTL_LTPT_JAVA_HIBERNATE\FashionShopServer\src\main\java" />
+      <recent name="D:\Lap trinh phan tan Java\BTL_LTPT_JAVA_HIBERNATE\FashionShopServer\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.utlis" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.Server" />
+      <module name="MotoSoftServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e432b236-0baa-4ec4-97b2-5552d126579d" name="Changes" comment="" />
+      <created>1668704379460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668704379460</updated>
+      <workItem from="1668704380911" duration="2052000" />
+      <workItem from="1668706880152" duration="342000" />
+      <workItem from="1668736871750" duration="4149000" />
+      <workItem from="1668745735663" duration="930000" />
+      <workItem from="1668748935077" duration="1236000" />
+      <workItem from="1668752146190" duration="3955000" />
+      <workItem from="1668760292745" duration="1932000" />
+      <workItem from="1668787014709" duration="2206000" />
+      <workItem from="1668820671780" duration="6315000" />
+      <workItem from="1668865762811" duration="61000" />
+      <workItem from="1668865859954" duration="7111000" />
+      <workItem from="1668913173388" duration="2670000" />
+      <workItem from="1668927763787" duration="96000" />
+      <workItem from="1668940335595" duration="7199000" />
+      <workItem from="1668953162387" duration="7985000" />
+      <workItem from="1669001201797" duration="7951000" />
+      <workItem from="1669038816165" duration="6684000" />
+      <workItem from="1669089503486" duration="4052000" />
+      <workItem from="1669120107705" duration="7369000" />
+      <workItem from="1669131448212" duration="407000" />
+      <workItem from="1669131937489" duration="156000" />
+      <workItem from="1669274921104" duration="6501000" />
+      <workItem from="1669292208202" duration="11058000" />
+      <workItem from="1669336324134" duration="4332000" />
+      <workItem from="1669344267376" duration="667000" />
+      <workItem from="1669386975791" duration="197000" />
+      <workItem from="1669902873059" duration="460000" />
+      <workItem from="1669904618704" duration="260000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

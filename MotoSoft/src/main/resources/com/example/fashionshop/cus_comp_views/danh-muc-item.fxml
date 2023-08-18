@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+
+<fx:root alignment="CENTER" fillHeight="false" spacing="3.0" style="-fx-background-color: #0c75f5; -fx-border-radius: 20; -fx-background-radius: 20;" type="HBox" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label fx:id="lblTenDanhMuc" text="Tên danh mục" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Semibold" size="11.0" />
+         </font>
+      </Label>
+      <VBox fx:id="btnDelete">
+         <children>
+            <Group scaleX="0.3" scaleY="0.3">
+               <children>
+                  <SVGPath content="m12.45 37.65-2.1-2.1L21.9 24 10.35 12.45l2.1-2.1L24 21.9l11.55-11.55 2.1 2.1L26.1 24l11.55 11.55-2.1 2.1L24 26.1Z" fill="WHITE" />
+               </children>
+            </Group>
+         </children>
+      </VBox>
+   </children>
+   <padding>
+      <Insets bottom="-2.0" left="10.0" top="-2.0" />
+   </padding>
+</fx:root>

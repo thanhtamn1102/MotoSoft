@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root alignment="CENTER" prefHeight="380.0" prefWidth="700.0" style="-fx-background-radius: 10; -fx-border-radius: 10; -fx-background-color: white; -fx-border-color: #EDEDED;" type="javafx.scene.layout.HBox" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox HBox.hgrow="ALWAYS">
+         <children>
+            <VBox alignment="CENTER_LEFT" spacing="8.0">
+               <children>
+                  <HBox>
+                     <children>
+                        <HBox alignment="CENTER_LEFT" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label id="lblTenSanPham" fx:id="lblTenSanPham" text="Mã đơn hàng" textFill="#58585a">
+                                 <font>
+                                    <Font name="Segoe UI Semibold" size="14.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets right="7.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Label id="lblOrderId" fx:id="lblOrderId" textFill="#58585a">
+                                 <font>
+                                    <Font name="Segoe UI Semibold" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label id="lblMaSanPham" fx:id="lblMaSanPham" layoutX="206.0" layoutY="10.0" text="Ngày tạo đơn hàng" textFill="#6d6e71">
+                                 <font>
+                                    <Font name="Segoe UI" size="14.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets right="7.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Label id="lblOrderDate" fx:id="lblOrderDate" textFill="#6d6e71">
+                                 <font>
+                                    <Font name="Segoe UI" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox spacing="50.0">
+                     <children>
+                        <VBox spacing="7.0">
+                           <children>
+                              <HBox>
+                                 <children>
+                                    <Label text="Nhân viên: " textFill="#6d6e71">
+                                       <font>
+                                          <Font name="Segoe UI Semibold" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <Label id="lblEmployee" fx:id="lblEmployee" textFill="#6d6e71">
+                                       <font>
+                                          <Font name="Segoe UI Semibold" size="13.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                              <HBox layoutX="10.0" layoutY="10.0">
+                                 <children>
+                                    <Label text="Khách hàng: " textFill="#6d6e71">
+                                       <font>
+                                          <Font name="Segoe UI Semibold" size="13.0" />
+                                       </font>
+                                    </Label>
+                                    <Label id="lblCustomer" fx:id="lblCustomer" textFill="#6d6e71">
+                                       <font>
+                                          <Font name="Segoe UI Semibold" size="13.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox VBox.vgrow="ALWAYS">
+               <children>
+                  <Separator prefWidth="200.0">
+                     <VBox.margin>
+                        <Insets bottom="7.0" top="7.0" />
+                     </VBox.margin>
+                  </Separator>
+                  <ListView id="lvChiTietDonHang" fx:id="lvChiTietDonHang" style="-fx-background-color: white;" styleClass="list-view-product" VBox.vgrow="ALWAYS" />
+                  <Separator prefWidth="200.0">
+                     <VBox.margin>
+                        <Insets bottom="10.0" top="7.0" />
+                     </VBox.margin>
+                  </Separator>
+               </children>
+            </VBox>
+            <HBox alignment="CENTER_RIGHT" spacing="20.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Label text="Tổng thanh toán:">
+                           <font>
+                              <Font name="Segoe UI" size="13.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="8.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label id="lblTongThanhToan" fx:id="lblTongThanhToan" text="0" textFill="#ee4d2d">
+                           <font>
+                              <Font name="Segoe UI Semibold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Label text=" VND" textFill="#ee4d2d">
+                           <font>
+                              <Font name="Segoe UI Semibold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox fx:id="boxAction" alignment="CENTER" spacing="10.0">
+                     <children>
+                        <Button id="btnThanhToan" fx:id="btnThanhToan" mnemonicParsing="false" style="-fx-background-color: #5D89FF; -fx-border-color: #5D89FF; -fx-border-radius: 4; -fx-background-radius: 4;" text="Thanh Toán" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI" size="13.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                           <padding>
+                              <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
+                           </padding>
+                        </Button>
+                        <Button id="btnXoaDonHang" fx:id="btnPhieuTraHang" layoutX="232.0" layoutY="10.0" mnemonicParsing="false" style="-fx-background-color: #FFC90E; -fx-border-color: #FFC90E; -fx-border-radius: 4; -fx-background-radius: 4;" text="Phiếu trả hàng" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI" size="13.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
+                           </padding>
+                        </Button>
+                        <Button id="btnXemChiTiet" fx:id="btnXemChiTiet" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" style="-fx-background-color: white; -fx-border-color: #5D89FF; -fx-border-radius: 4; -fx-background-radius: 4;" text="Xem chi tiết">
+                           <font>
+                              <Font name="Segoe UI" size="13.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
+                           </padding>
+                        </Button>
+                        <Button id="btnXoaDonHang" fx:id="btnTraHang" layoutX="232.0" layoutY="10.0" mnemonicParsing="false" style="-fx-background-color: white; -fx-border-color: #E8E8E8; -fx-border-radius: 4; -fx-background-radius: 4;" text="Trả hàng">
+                           <font>
+                              <Font name="Segoe UI" size="13.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
+                           </padding>
+                        </Button>
+                        <Button id="btnXoaDonHang" fx:id="btnXoaDonHang" layoutX="120.0" layoutY="10.0" mnemonicParsing="false" style="-fx-background-color: white; -fx-border-color: #E8E8E8; -fx-border-radius: 4; -fx-background-radius: 4;" text="Xóa Đơn Hàng">
+                           <font>
+                              <Font name="Segoe UI" size="13.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="7.0" left="15.0" right="15.0" top="7.0" />
+                           </padding>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+         </children>
+         <HBox.margin>
+            <Insets />
+         </HBox.margin>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </VBox>
+   </children>
+   <padding>
+      <Insets bottom="9.0" left="9.0" right="9.0" top="9.0" />
+   </padding>
+</fx:root>

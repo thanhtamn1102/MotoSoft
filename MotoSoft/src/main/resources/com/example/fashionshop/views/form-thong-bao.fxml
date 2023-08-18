@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1100.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btnDong" mnemonicParsing="false" prefHeight="55.0" prefWidth="144.0" style="-fx-background-color: #d43636; -fx-background-radius: 5; -fx-border-radius: 5;" text="ĐÓNG" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Semibold" size="22.0" />
+               </font>
+               <graphic>
+                  <Group>
+                     <children>
+                        <SVGPath content="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6zM310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z" fill="WHITE" scaleX="0.08" scaleY="0.08" />
+                     </children>
+                  </Group>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+   </bottom>
+   <top>
+      <VBox alignment="TOP_CENTER" prefHeight="122.0" prefWidth="1300.0" spacing="10.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="THÔNG BÁO" textFill="#8d8f8d">
+               <font>
+                  <Font name="Segoe UI Semibold" size="35.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER_LEFT" prefHeight="60.0" prefWidth="1300.0" spacing="10.0">
+               <VBox.margin>
+                  <Insets left="20.0" right="20.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" spacing="15.0">
+               <children>
+                  <VBox style="-fx-background-color: white;" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Label text="Tìm kiếm" textFill="#8d8f8d">
+                           <font>
+                              <Font name="Segoe UI" size="12.0" />
+                           </font>
+                        </Label>
+                        <HBox alignment="CENTER_LEFT" prefHeight="35.0" prefWidth="450.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-radius: 5; -fx-border-color: #CFD4D9;">
+                           <children>
+                              <TextField id="txtTimKiem" fx:id="txtTimKiem" style="-fx-background-color: white; -fx-border-color: white;" HBox.hgrow="ALWAYS" />
+                              <Group>
+                                 <children>
+                                    <SVGPath content="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z" fill="#cfd4d9" scaleX="0.03" scaleY="0.03" />
+                                 </children>
+                              </Group>
+                           </children>
+                           <padding>
+                              <Insets bottom="3.0" left="3.0" right="10.0" top="3.0" />
+                           </padding>
+                        </HBox>
+                     </children>
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox fx:id="boxDanhMucSanPham">
+                     <children>
+                        <Label text="Danh mục sản phẩm" textFill="#8d8f8d">
+                           <font>
+                              <Font name="Segoe UI" size="12.0" />
+                           </font>
+                        </Label>
+                        <HBox VBox.vgrow="ALWAYS">
+                           <children>
+                              <ChoiceBox prefHeight="35.0" prefWidth="230.0" style="-fx-background-color: white; -fx-border-color: #CFD4D9; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                           </children>
+                        </HBox>
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox fx:id="boxTrangThai" layoutX="10.0" layoutY="10.0">
+                     <children>
+                        <Label text="Trạng thái" textFill="#8d8f8d">
+                           <font>
+                              <Font name="Segoe UI" size="12.0" />
+                           </font>
+                        </Label>
+                        <HBox VBox.vgrow="ALWAYS">
+                           <children>
+                              <ChoiceBox prefHeight="35.0" prefWidth="150.0" style="-fx-background-color: white; -fx-border-color: #CFD4D9; -fx-border-radius: 5; -fx-background-radius: 5;" />
+                           </children>
+                        </HBox>
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox fx:id="boxSapXep" layoutX="180.0" layoutY="10.0">
+                     <children>
+                        <Label text="Sắp xếp" textFill="#8d8f8d">
+                           <font>
+                              <Font name="Segoe UI" size="12.0" />
+                           </font>
+                        </Label>
+                        <HBox VBox.vgrow="ALWAYS">
+                           <children>
+                              <ChoiceBox prefHeight="35.0" prefWidth="230.0" style="-fx-background-color: white; -fx-border-color: #CFD4D9; -fx-border-radius: 5; -fx-background-radius: 5;" HBox.hgrow="ALWAYS" />
+                           </children>
+                        </HBox>
+                     </children>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </top>
+   <padding>
+      <Insets left="20.0" right="20.0" />
+   </padding>
+   <center>
+      <ListView fx:id="listView" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets top="20.0" />
+         </BorderPane.margin>
+      </ListView>
+   </center>
+</BorderPane>

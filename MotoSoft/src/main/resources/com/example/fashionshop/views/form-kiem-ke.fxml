@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1300.0" style="-fx-background-color: white;" type="BorderPane" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <HBox style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <padding>
+            <Insets bottom="25.0" left="30.0" right="30.0" top="25.0" />
+         </padding>
+         <children>
+            <HBox HBox.hgrow="ALWAYS">
+               <children>
+                  <Label id="lblTitle" fx:id="lblTitle" text="Phiếu kiểm kê">
+                     <font>
+                        <Font name="Segoe UI" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label id="lblMaPhieuKiemKe" fx:id="lblMaPhieuKiemKe" layoutX="10.0" layoutY="10.0" text="(PKK0000001)" textFill="#00ae2c">
+                     <font>
+                        <Font name="Segoe UI" size="24.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="15.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" visible="false" HBox.hgrow="ALWAYS">
+               <children>
+                  <Label text="Tìm kiếm nhân viên: ">
+                     <HBox.margin>
+                        <Insets right="15.0" />
+                     </HBox.margin>
+                  </Label>
+                  <HBox id="boxTimKiemNhanVien" fx:id="boxTimKiemNhanVien" style="-fx-border-color: gray; -fx-background-radius: 5; -fx-border-radius: 5;" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" spacing="15.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets left="30.0" right="30.0" />
+         </padding>
+         <children>
+            <HBox spacing="10.0">
+               <children>
+                  <VBox spacing="5.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Label text="Nhân viên tạo phiếu">
+                           <font>
+                              <Font name="Segoe UI Semibold" size="14.0" />
+                           </font>
+                        </Label>
+                        <HBox>
+                           <children>
+                              <VBox alignment="CENTER_LEFT" prefWidth="110.0">
+                                 <children>
+                                    <Label text="Họ tên: " />
+                                 </children>
+                              </VBox>
+                              <VBox HBox.hgrow="ALWAYS">
+                                 <children>
+                                    <Label id="lblHoTenNVTaoPhieu" fx:id="lblHoTenNVTaoPhieu">
+                                       <font>
+                                          <Font name="Segoe UI Semibold" size="13.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="28.0">
+                           <children>
+                              <VBox alignment="CENTER_LEFT" prefWidth="110.0">
+                                 <children>
+                                    <Label text="MSNV: " />
+                                 </children>
+                              </VBox>
+                              <VBox HBox.hgrow="ALWAYS">
+                                 <children>
+                                    <Label id="lblMSNVTaoPhieu" fx:id="lblMSNVTaoPhieu">
+                                       <font>
+                                          <Font name="Segoe UI Semibold" size="13.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="48.0">
+                           <children>
+                              <VBox alignment="CENTER_LEFT" prefWidth="110.0">
+                                 <children>
+                                    <Label text="Ngày tạo phiếu: " />
+                                 </children>
+                              </VBox>
+                              <VBox HBox.hgrow="ALWAYS">
+                                 <children>
+                                    <Label id="lblNgayTaoPhieu" fx:id="lblNgayTaoPhieu">
+                                       <font>
+                                          <Font name="Segoe UI Semibold" size="13.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox layoutX="10.0" layoutY="10.0" spacing="5.0" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Label text="Nhân viên kiểm kê">
+                           <font>
+                              <Font name="Segoe UI Semibold" size="14.0" />
+                           </font>
+                        </Label>
+                        <HBox>
+                           <children>
+                              <VBox alignment="CENTER_LEFT" prefWidth="110.0">
+                                 <children>
+                                    <Label text="Họ tên: " />
+                                 </children>
+                              </VBox>
+                              <VBox HBox.hgrow="ALWAYS">
+                                 <children>
+                                    <Label id="lblHoTenNVKiemKe" fx:id="lblHoTenNVKiemKe" />
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="28.0">
+                           <children>
+                              <VBox alignment="CENTER_LEFT" prefWidth="110.0">
+                                 <children>
+                                    <Label text="MSNV: " />
+                                 </children>
+                              </VBox>
+                              <VBox HBox.hgrow="ALWAYS">
+                                 <children>
+                                    <Label id="lblMSNVKiemKe" fx:id="lblMSNVKiemKe">
+                                       <font>
+                                          <Font name="Segoe UI Semibold" size="13.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <HBox>
+                           <children>
+                              <VBox alignment="CENTER_LEFT" prefWidth="110.0">
+                                 <children>
+                                    <Label text="Ngày kiểm kê: " />
+                                 </children>
+                              </VBox>
+                              <VBox HBox.hgrow="ALWAYS">
+                                 <children>
+                                    <Label id="lblNgayKiemKe" fx:id="lblNgayKiemKe">
+                                       <font>
+                                          <Font name="Segoe UI Semibold" size="13.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <VBox spacing="5.0">
+               <children>
+                  <Label text="Thông tin chi tiết phiếu kiểm kê">
+                     <font>
+                        <Font name="Segoe UI Semibold" size="14.0" />
+                     </font>
+                  </Label>
+                  <HBox>
+                     <children>
+                        <HBox HBox.hgrow="ALWAYS">
+                           <children>
+                              <VBox alignment="CENTER_LEFT" prefWidth="110.0">
+                                 <children>
+                                    <Label text="Trạng thái: " />
+                                 </children>
+                              </VBox>
+                              <VBox alignment="CENTER_LEFT" HBox.hgrow="ALWAYS">
+                                 <children>
+                                    <Label id="lblTrangThai" fx:id="lblTrangThai" textFill="#00b418">
+                                       <font>
+                                          <Font name="Segoe UI Semibold Italic" size="13.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </HBox>
+                        <VBox HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label text="Ghi chú:" />
+                              <TextArea id="txtGhiChu" fx:id="txtGhiChu" focusTraversable="false" prefHeight="70.0" />
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox VBox.vgrow="ALWAYS">
+               <children>
+                  <HBox alignment="CENTER_LEFT">
+                     <children>
+                        <HBox HBox.hgrow="ALWAYS">
+                           <children>
+                              <Label text="Danh sách sản phẩm kiểm kê   ">
+                                 <font>
+                                    <Font name="Segoe UI Semibold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label id="lblSoLuongSP" fx:id="lblSoLuongSP" text="(10 Sản phẩm)">
+                                 <font>
+                                    <Font name="Segoe UI" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_RIGHT" HBox.hgrow="ALWAYS" />
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="10.0" top="10.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <Separator prefWidth="200.0">
+                     <VBox.margin>
+                        <Insets bottom="7.0" />
+                     </VBox.margin>
+                  </Separator>
+                  <ListView id="listView" fx:id="listView" focusTraversable="false" styleClass="list-view-product" />
+                  <Separator prefWidth="200.0">
+                     <VBox.margin>
+                        <Insets top="7.0" />
+                     </VBox.margin>
+                  </Separator>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </center>
+   <bottom>
+      <HBox alignment="CENTER_RIGHT" spacing="15.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </padding>
+         <children>
+            <HBox alignment="CENTER_RIGHT" spacing="15.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <Button id="btnLuu" fx:id="btnLuu" mnemonicParsing="false" prefHeight="35.0" prefWidth="120.0" style="-fx-background-color: #E5A345;" text="LƯU" textFill="WHITE">
+                     <graphic>
+                        <Group>
+                           <children>
+                              <SVGPath content="M224 256c-35.2 0-64 28.8-64 64c0 35.2 28.8 64 64 64c35.2 0 64-28.8 64-64C288 284.8 259.2 256 224 256zM433.1 129.1l-83.9-83.9C341.1 37.06 328.8 32 316.1 32H64C28.65 32 0 60.65 0 96v320c0 35.35 28.65 64 64 64h320c35.35 0 64-28.65 64-64V163.9C448 151.2 442.9 138.9 433.1 129.1zM128 80h144V160H128V80zM400 416c0 8.836-7.164 16-16 16H64c-8.836 0-16-7.164-16-16V96c0-8.838 7.164-16 16-16h16v104c0 13.25 10.75 24 24 24h192C309.3 208 320 197.3 320 184V83.88l78.25 78.25C399.4 163.2 400 164.8 400 166.3V416z" fill="WHITE" scaleX="0.04" scaleY="0.04" />
+                           </children>
+                        </Group>
+                     </graphic>
+                     <font>
+                        <Font name="Segoe UI Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button id="btnThoat" fx:id="btnThoat" mnemonicParsing="false" prefHeight="35.0" prefWidth="120.0" style="-fx-background-color: #C4C4C4;" text="THOÁT" textFill="WHITE">
+                     <graphic>
+                        <Group>
+                           <children>
+                              <SVGPath content="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6zM310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z" fill="WHITE" scaleX="0.04" scaleY="0.04" />
+                           </children>
+                        </Group>
+                     </graphic>
+                     <font>
+                        <Font name="Segoe UI Bold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </bottom>
+</fx:root>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="panelMain" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+    <left>
+        <VBox fx:id="panelMenu" alignment="TOP_CENTER" prefHeight="200.0" prefWidth="225.0" style="-fx-background-color: #0C75F5;" BorderPane.alignment="CENTER">
+            <padding>
+                <Insets bottom="20.0" left="10.0" right="20.0" top="20.0" />
+            </padding></VBox>
+    </left>
+    <center>
+        <BorderPane prefHeight="200.0" prefWidth="1100.0" style="-fx-background-color: #F1F6FC;">
+            <top>
+                <HBox alignment="CENTER_RIGHT" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 7; -fx-border-radius: 7;" BorderPane.alignment="CENTER_RIGHT">
+                    <children>
+                        <HBox alignment="CENTER_LEFT" fillHeight="false" spacing="10.0" HBox.hgrow="ALWAYS">
+                            <children>
+                        <Region id="titleIcon" fx:id="titleIcon" prefHeight="32.0" prefWidth="32.0" style="-fx-background-color: #3e7397;" />
+                                <Label fx:id="pageTitle" text="Page Title" textFill="#3e7397">
+                                    <font>
+                                        <Font name="Segoe UI Semibold" size="24.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <VBox fx:id="boxThongBao" alignment="CENTER" fillWidth="false" prefHeight="45.0" prefWidth="45.0">
+                            <children>
+                                <Group>
+                                    <children>
+                                        <SVGPath content="M256 32V49.88C328.5 61.39 384 124.2 384 200V233.4C384 278.8 399.5 322.9 427.8 358.4L442.7 377C448.5 384.2 449.6 394.1 445.6 402.4C441.6 410.7 433.2 416 424 416H24C14.77 416 6.365 410.7 2.369 402.4C-1.628 394.1-.504 384.2 5.26 377L20.17 358.4C48.54 322.9 64 278.8 64 233.4V200C64 124.2 119.5 61.39 192 49.88V32C192 14.33 206.3 0 224 0C241.7 0 256 14.33 256 32V32zM216 96C158.6 96 112 142.6 112 200V233.4C112 281.3 98.12 328 72.31 368H375.7C349.9 328 336 281.3 336 233.4V200C336 142.6 289.4 96 232 96H216zM288 448C288 464.1 281.3 481.3 269.3 493.3C257.3 505.3 240.1 512 224 512C207 512 190.7 505.3 178.7 493.3C166.7 481.3 160 464.1 160 448H288z" fill="#8d8f8d" scaleX="0.04" scaleY="0.04" />
+                                    </children>
+                                </Group>
+                            </children>
+                        </VBox>
+                  <HBox id="boxTaiKhoan" fx:id="boxTaiKhoan" alignment="CENTER">
+                     <children>
+                        <VBox alignment="CENTER_RIGHT">
+                           <children>
+                              <Label id="lblMaNhanVien" fx:id="lblMaNhanVien" textFill="#8d8f8d">
+                                 <font>
+                                    <Font name="Segoe UI Semibold" size="13.0" />
+                                 </font>
+                              </Label>
+                              <Label id="lblTenNhanVien" fx:id="lblTenNhanVien" layoutX="10.0" layoutY="24.0" textFill="#8d8f8d">
+                                 <font>
+                                    <Font name="Segoe UI Semibold" size="13.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <HBox.margin>
+                              <Insets left="10.0" right="10.0" />
+                           </HBox.margin>
+                        </VBox>
+                                <Group>
+                                    <children>
+                                        <SVGPath content="M256 112c-48.6 0-88 39.4-88 88C168 248.6 207.4 288 256 288s88-39.4 88-88C344 151.4 304.6 112 256 112zM256 240c-22.06 0-40-17.95-40-40C216 177.9 233.9 160 256 160s40 17.94 40 40C296 222.1 278.1 240 256 240zM256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 464c-46.73 0-89.76-15.68-124.5-41.79C148.8 389 182.4 368 220.2 368h71.69c37.75 0 71.31 21.01 88.68 54.21C345.8 448.3 302.7 464 256 464zM416.2 388.5C389.2 346.3 343.2 320 291.8 320H220.2c-51.36 0-97.35 26.25-124.4 68.48C65.96 352.5 48 306.3 48 256c0-114.7 93.31-208 208-208s208 93.31 208 208C464 306.3 446 352.5 416.2 388.5z" fill="#bcbcbc" scaleX="0.06" scaleY="0.06" />
+                                    </children>
+                                </Group>
+                     </children>
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </HBox>
+                  <VBox fx:id="boxDangXuat" alignment="CENTER_RIGHT" fillWidth="false" prefHeight="46.0" prefWidth="52.0">
+                     <children>
+                        <Group>
+                           <children>
+                              <SVGPath content="M208 96c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zM123.7 200.5c1-.4 1.9-.8 2.9-1.2l-16.9 63.5c-5.6 21.1-.1 43.6 14.7 59.7l70.7 77.1 22 88.1c4.3 17.1 21.7 27.6 38.8 23.3s27.6-21.7 23.3-38.8l-23-92.1c-1.9-7.8-5.8-14.9-11.2-20.8l-49.5-54 19.3-65.5 9.6 23c4.4 10.6 12.5 19.3 22.8 24.5l26.7 13.3c15.8 7.9 35 1.5 42.9-14.3s1.5-35-14.3-42.9L281 232.7l-15.3-36.8C248.5 154.8 208.3 128 163.7 128c-22.8 0-45.3 4.8-66.1 14l-8 3.5c-32.9 14.6-58.1 42.4-69.4 76.5l-2.6 7.8c-5.6 16.8 3.5 34.9 20.2 40.5s34.9-3.5 40.5-20.2l2.6-7.8c5.7-17.1 18.3-30.9 34.7-38.2l8-3.5zm-30 135.1L68.7 398 9.4 457.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L116.3 441c4.6-4.6 8.2-10.1 10.6-16.1l14.5-36.2-40.7-44.4c-2.5-2.7-4.8-5.6-7-8.6zM550.6 153.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L530.7 224H384c-17.7 0-32 14.3-32 32s14.3 32 32 32H530.7l-25.4 25.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l80-80c12.5-12.5 12.5-32.8 0-45.3l-80-80z" fill="#8d8f8d" scaleX="0.04" scaleY="0.04" />
+                           </children>
+                        </Group>
+                     </children>
+                  </VBox>
+                    </children>
+                    <BorderPane.margin>
+                        <Insets left="20.0" right="20.0" top="20.0" />
+                    </BorderPane.margin>
+                    <padding>
+                        <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+                    </padding>
+                </HBox>
+            </top>
+            <center>
+                <StackPane fx:id="paneContent" style="-fx-background-color: white; -fx-border-color: #F1F6FC; -fx-background-radius: 10;" BorderPane.alignment="CENTER">
+                    <BorderPane.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                    </BorderPane.margin>
+                </StackPane>
+            </center>
+        </BorderPane>
+    </center>
+</BorderPane>

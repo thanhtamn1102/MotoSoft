@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <VBox prefWidth="80.0" style="-fx-background-color: white; -fx-border-color: #F2F2F2;" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER" layoutX="11.0" layoutY="11.0" prefHeight="65.0" prefWidth="80.0" style="-fx-background-color: #0C75F5;" />
+            <VBox id="menuDashboard" fx:id="menuDashboard" alignment="CENTER" prefHeight="80.0" prefWidth="80.0">
+               <children>
+                  <Group>
+                     <children>
+                        <SVGPath content="M6 22.5V6h16.5v16.5ZM6 42V25.5h16.5V42Zm19.5-19.5V6H42v16.5Zm0 19.5V25.5H42V42ZM9 19.5h10.5V9H9Zm19.5 0H39V9H28.5Zm0 19.5H39V28.5H28.5ZM9 39h10.5V28.5H9Zm19.5-19.5Zm0 9Zm-9 0Zm0-9Z" fill="#bdbdbd" scaleX="0.6" scaleY="0.6" />
+                     </children>
+                  </Group>
+                  <Label text="Dashboard" textFill="#bdbdbd">
+                     <font>
+                        <Font name="Segoe UI" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox id="menuBanHang" fx:id="menuBanHang" alignment="CENTER" layoutX="11.0" layoutY="11.0" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #58ACFA;">
+               <children>
+                  <Group>
+                     <children>
+                        <SVGPath id="iconMenuBanHang" fx:id="iconMenuBanHang" content="M14.35 43.95q-1.5 0-2.55-1.05-1.05-1.05-1.05-2.55 0-1.5 1.05-2.55 1.05-1.05 2.55-1.05 1.5 0 2.55 1.05 1.05 1.05 1.05 2.55 0 1.5-1.05 2.55-1.05 1.05-2.55 1.05Zm20 0q-1.5 0-2.55-1.05-1.05-1.05-1.05-2.55 0-1.5 1.05-2.55 1.05-1.05 2.55-1.05 1.5 0 2.55 1.05 1.05 1.05 1.05 2.55 0 1.5-1.05 2.55-1.05 1.05-2.55 1.05Zm-22.6-33 5.5 11.4h14.4l6.25-11.4Zm-1.5-3H39.7q1.15 0 1.75 1.05.6 1.05 0 2.1L34.7 23.25q-.55.95-1.425 1.525t-1.925.575H16.2l-2.8 5.2h24.55v3h-24.1q-2.1 0-3.025-1.4-.925-1.4.025-3.15l3.2-5.9L6.45 7h-3.9V4H8.4Zm7 14.4h14.4Z" fill="WHITE" scaleX="0.6" scaleY="0.6" />
+                     </children>
+                  </Group>
+                  <Label id="lblMenuBanHang" fx:id="lblMenuBanHang" text="Bán hàng" textFill="WHITE">
+                     <font>
+                        <Font name="Segoe UI" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox id="menuDonHang" fx:id="menuDonHang" alignment="CENTER" layoutX="11.0" layoutY="11.0" prefHeight="80.0" prefWidth="80.0">
+               <children>
+                  <Group>
+                     <children>
+                        <SVGPath id="iconMenuDonHang" fx:id="iconMenuDonHang" content="M11.1 44q-2.2 0-3.725-1.525T5.85 38.75V32.5h6.35V4l3 3 3-3 2.95 3 3-3 3 3 3-3 3 3 3-3 3 3 3-3v34.75q0 2.2-1.525 3.725T36.9 44Zm25.8-3q1 0 1.625-.625t.625-1.625V9H15.2v23.5h19.45v6.25q0 1 .625 1.625T36.9 41ZM17.85 16.9v-3h12v3Zm0 6.7v-3h12v3Zm16.65-6.7q-.6 0-1.05-.45Q33 16 33 15.4q0-.6.45-1.05.45-.45 1.05-.45.6 0 1.05.45.45.45.45 1.05 0 .6-.45 1.05-.45.45-1.05.45Zm0 6.45q-.6 0-1.05-.45-.45-.45-.45-1.05 0-.6.45-1.05.45-.45 1.05-.45.6 0 1.05.45.45.45.45 1.05 0 .6-.45 1.05-.45.45-1.05.45ZM11.05 41h20.6v-5.5H8.85v3.25q0 1 .625 1.625T11.05 41Zm-2.2 0v-5.5V41Z" fill="#bdbdbd" scaleX="0.6" scaleY="0.6" />
+                     </children>
+                  </Group>
+                  <Label id="lblMenuDonHang" fx:id="lblMenuDonHang" text="Đơn hàng" textFill="#bdbdbd">
+                     <font>
+                        <Font name="Segoe UI" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets top="5.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="-1.0" left="-1.0" right="-1.0" top="-1.0" />
+         </BorderPane.margin></VBox>
+   </left>
+   <center>
+      <VBox id="boxContent" fx:id="boxContent" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

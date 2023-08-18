@@ -1,0 +1,96 @@
+.table-view .column-header .label {
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: #3E7397;
+}
+
+.currency-text-field {
+    -fx-background-color: transparent;
+}
+
+.currency-text-field .label-currency {
+    -fx-border-radius: 0 5 5 0;
+    -fx-background-radius: 0 5 5 0;
+    -fx-background-color:  #7092BE;
+    /* top-left, top-right, bottom-right, and bottom-left corners, in that order. */
+}
+
+.currency-text-field .input-currency-textfield {
+    -fx-background-color: white;
+    -fx-border-color:  #CFD4D9;
+    -fx-border-radius: 5 0 0 5;
+    -fx-background-radius: 5 0 0 5;
+}
+
+.counter {
+    -fx-background-color: transparent;
+}
+
+.counter .btnPlus {
+    -fx-border-radius: 0 5 5 0;
+    -fx-background-radius: 0 5 5 0;
+    -fx-background-color:  #7092BE;
+}
+
+.counter .btnMinus {
+    -fx-border-radius: 5 0 0 5;
+    -fx-background-radius: 5 0 0 5;
+    -fx-background-color:  #7092BE;
+}
+
+.counter .input-number {
+     -fx-background-color: white;
+    -fx-border-color:  #CFD4D9;
+}
+
+.table-product .table-row-cell:filled:selected {
+  -fx-background: -fx-control-inner-background ;
+  -fx-background-color: -fx-table-cell-border-color, -fx-background ;
+  -fx-background-insets: 0, 0 0 1 0 ;
+  -fx-table-cell-border-color: derive(-fx-color, 5%);
+}
+.table-product .table-row-cell:odd:filled:selected {
+  -fx-background: -fx-control-inner-background-alt ;
+}
+
+.list-view-product .list-cell {
+    -fx-background-color: white;
+}
+.list-view-product {
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+}
+.list-view-product .list-cell:filled:selected:focused,
+.list-view-product .list-cell:filled:selected {
+    -fx-background-color: white;
+}
+
+.btn-send-otp {
+    -fx-border-radius: 0 5 5 0;
+    -fx-background-radius: 0 5 5 0;
+}
+
+.product-search-view .custom-menu-item {
+    -fx-background-color: white;
+}
+.product-search-view {
+    -fx-background-color: white;
+    -fx-border-color: white;
+}
+.product-search-view .custom-menu-item:focused {
+    -fx-background-color: white;
+}
+
+.list-view-product-category-view .list-cell {
+    -fx-background-color: transparent;
+}
+.list-view-product-category-view {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+.list-view-product-category-view .list-cell:filled:selected:focused,
+.list-view-product-category-view .list-cell:filled:selected {
+    -fx-background-color: transparent;
+}

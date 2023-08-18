@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.fashionshop.controller.FormLoginController">
+   <center>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER">
+               <children>
+                  <ImageView fitWidth="450.0" pickOnBounds="true" preserveRatio="true" VBox.vgrow="ALWAYS">
+                     <image>
+                        <Image url="@../drawable/background-login.jpg" />
+                     </image>
+                  </ImageView>
+               </children></VBox>
+            <VBox alignment="CENTER" style="-fx-background-color: white;" HBox.hgrow="ALWAYS">
+               <children>
+                  <HBox prefHeight="150.0">
+                     <children>
+                        <Label alignment="BOTTOM_LEFT" contentDisplay="CENTER" text="Welcome to">
+                           <font>
+                              <Font name="Segoe UI Semibold" size="28.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="BOTTOM_LEFT" text="Moto Soft" textFill="#478ff3">
+                           <font>
+                              <Font name="Segoe UI Bold" size="28.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="8.0" />
+                           </HBox.margin>
+                           <padding>
+                              <Insets top="3.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets top="30.0" />
+                     </padding>
+                  </HBox>
+                  <VBox alignment="CENTER">
+                     <children>
+                        <Label text="ĐĂNG NHẬP">
+                           <font>
+                              <Font name="Segoe UI Semibold" size="28.0" />
+                           </font>
+                        </Label>
+                        <HBox alignment="CENTER" prefHeight="2.0">
+                           <children>
+                              <VBox prefWidth="80.0" style="-fx-background-color: #E5E5E5;" />
+                              <VBox fillWidth="false" prefHeight="2.0" prefWidth="100.0" style="-fx-background-color: #0099FF;" />
+                              <VBox layoutX="120.0" layoutY="10.0" prefWidth="80.0" style="-fx-background-color: #E5E5E5;" />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="8.0" />
+                           </VBox.margin>
+                        </HBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="35.0" />
+                     </VBox.margin>
+                  </VBox>
+                  <VBox alignment="CENTER">
+                     <children>
+                        <Label id="lblLoginError" fx:id="lblLoginError" textFill="RED">
+                           <font>
+                              <Font name="Segoe UI Italic" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="15.0" />
+                     </VBox.margin>
+                  </VBox>
+                  <VBox alignment="CENTER_RIGHT">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="43.0" style="-fx-border-color: #E0E0E0; -fx-background-radius: 7; -fx-border-radius: 7; -fx-background-color: white;">
+                           <children>
+                              <VBox alignment="CENTER" prefWidth="45.0">
+                                 <children>
+                                    <Group>
+                                       <children>
+                                          <SVGPath content="M272 304h-96C78.8 304 0 382.8 0 480c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32C448 382.8 369.2 304 272 304zM48.99 464C56.89 400.9 110.8 352 176 352h96c65.16 0 119.1 48.95 127 112H48.99zM224 256c70.69 0 128-57.31 128-128c0-70.69-57.31-128-128-128S96 57.31 96 128C96 198.7 153.3 256 224 256zM224 48c44.11 0 80 35.89 80 80c0 44.11-35.89 80-80 80S144 172.1 144 128C144 83.89 179.9 48 224 48z" fill="#e0e0e0" scaleX="0.04" scaleY="0.035" />
+                                       </children>
+                                    </Group>
+                                 </children>
+                              </VBox>
+                              <TextField id="txtMaNhanVien" fx:id="txtMaNhanVien" promptText="Mã nhân viên" style="-fx-background-color: white; -fx-border-color: white;" HBox.hgrow="ALWAYS">
+                                 <font>
+                                    <Font name="Segoe UI" size="14.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </HBox>
+                        <Label id="lblMaNhanVienError" fx:id="lblMaNhanVienError" textFill="RED">
+                           <font>
+                              <Font name="Segoe UI Italic" size="12.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER_RIGHT">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="43.0" style="-fx-border-color: #E0E0E0; -fx-background-radius: 7; -fx-border-radius: 7; -fx-background-color: white;">
+                           <children>
+                              <VBox alignment="CENTER" prefWidth="45.0">
+                                 <children>
+                                    <Group>
+                                       <children>
+                                          <SVGPath content="M14 27.4q-1.4 0-2.4-1t-1-2.4q0-1.4 1-2.4t2.4-1q1.4 0 2.4 1t1 2.4q0 1.4-1 2.4t-2.4 1Zm0 8.6q-5 0-8.5-3.5T2 24q0-5 3.5-8.5T14 12q3.6 0 6.3 1.7 2.7 1.7 4.25 5.15h17.8L48 24.5l-8.35 7.65-4.4-3.2-4.4 3.2-3.75-3h-2.55q-1.25 3-3.925 4.925Q17.95 36 14 36Zm0-3q2.9 0 5.35-1.925 2.45-1.925 3.15-4.925h5.7l2.7 2.25 4.4-3.15 4.1 3.1 4.25-3.95-2.55-2.55H22.5q-.6-2.8-3-4.825Q17.1 15 14 15q-3.75 0-6.375 2.625T5 24q0 3.75 2.625 6.375T14 33Z" fill="#e0e0e0" scaleX="0.6" scaleY="0.6" />
+                                       </children>
+                                    </Group>
+                                 </children>
+                              </VBox>
+                              <PasswordField id="txtMatKhau" fx:id="txtMatKhau" promptText="Mật khẩu" style="-fx-background-color: white; -fx-border-color: white;" HBox.hgrow="ALWAYS">
+                                 <font>
+                                    <Font name="Segoe UI" size="14.0" />
+                                 </font>
+                              </PasswordField>
+                           </children>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <Label id="lblMatKhauError" fx:id="lblMatKhauError" textFill="RED">
+                           <font>
+                              <Font name="Segoe UI Italic" size="12.0" />
+                           </font>
+                           <padding>
+                              <Insets top="5.0" />
+                           </padding>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <HBox alignment="CENTER_RIGHT">
+                     <children>
+                        <Label id="lblQuenMatKhau" fx:id="lblQuenMatKhau" text="Quên mật khẩu?" textFill="#8c8c8c">
+                           <font>
+                              <Font name="Segoe UI Semibold" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <HBox alignment="CENTER">
+                     <children>
+                        <Button id="btnDangNhap" fx:id="btnDangNhap" mnemonicParsing="false" style="-fx-background-color: #FFB612;" text="Đăng nhập" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI Semibold" size="14.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="9.0" left="25.0" right="25.0" top="9.0" />
+                           </padding>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <VBox VBox.vgrow="ALWAYS" />
+               </children>
+               <padding>
+                  <Insets left="40.0" right="40.0" top="50.0" />
+               </padding>
+            </VBox>
+         </children>
+      </HBox>
+   </center>
+</BorderPane>

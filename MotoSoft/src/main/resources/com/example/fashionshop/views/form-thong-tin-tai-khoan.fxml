@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1100.0" style="-fx-background-color: #F6F7FC;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <HBox spacing="2.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="TOP_CENTER" fillWidth="false" minWidth="270.0" prefWidth="270.0" style="-fx-background-color: white;">
+               <children>
+                  <HBox alignment="CENTER" fillHeight="false" prefHeight="50.0" />
+                  <VBox alignment="CENTER">
+                     <children>
+                        <VBox fx:id="boxAvatar" alignment="CENTER" prefHeight="150.0" prefWidth="150.0" style="-fx-background-radius: 150; -fx-border-radius: 150; -fx-background-color: grey; -fx-background-image: url(&quot;https://snz04pap001files.storage.live.com/y4mFE19k2B_oXBXaFgOaorPOy1iUd_w4amnLytFAW8_C0bec0t1GCs3Kdw9UN0pTFYxjm2r3u6A8hDpHFpxEfkE600dbLjkOCNoFt-gE4WueLYIwyYc0345tuNCoL9MToQdO9ZRAm3RbhMnpOtKLumktkRwUnTzn2_cgmqKeep9j1EGZ3vYYx16tuiNjtUNwKns?width=225&amp;height=225&amp;cropmode=none&quot;); -fx-background-repeat: stretch;">
+                           <VBox.margin>
+                              <Insets top="40.0" />
+                           </VBox.margin>
+                        </VBox>
+                        <Label fx:id="lblHoVaTen" text="Nguyễn Thanh Tâm" textFill="#7f7f7f">
+                           <font>
+                              <Font name="Segoe UI Bold" size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="30.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="lblChucVu" layoutX="20.0" layoutY="231.0" text="Chủ cửa hàng" textFill="#cecece">
+                           <font>
+                              <Font name="Segoe UI Semibold" size="13.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="7.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" spacing="20.0">
+                     <children>
+                        <Button fx:id="btnUpdateNewAvatar" mnemonicParsing="false" style="-fx-background-color: #4D9CF9; -fx-background-radius: 15; -fx-border-radius: 15;" text="Upload New Avatar" textFill="WHITE">
+                           <font>
+                              <Font name="Segoe UI Semibold" size="13.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+                           </padding>
+                        </Button>
+                        <Button fx:id="btnDangXuat" mnemonicParsing="false" style="-fx-background-color: white; -fx-border-color: #EDEDED; -fx-background-radius: 15; -fx-border-radius: 15;" text="Đăng xuất" textFill="#b4b5b7">
+                           <font>
+                              <Font name="Segoe UI Semibold" size="13.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+                           </padding>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="40.0" />
+                     </VBox.margin>
+                  </VBox>
+               </children>
+            </VBox>
+            <VBox style="-fx-background-color: #F6F7FC;" HBox.hgrow="ALWAYS">
+               <children>
+                  <HBox alignment="CENTER_LEFT" minHeight="50.0" prefHeight="50.0" style="-fx-background-color: white;">
+                     <children>
+                        <Label text="Thông tin nhân viên" textFill="#c1c1c1">
+                           <font>
+                              <Font name="Segoe UI Semibold" size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="27.0" />
+                     </padding>
+                  </HBox>
+                  <VBox VBox.vgrow="ALWAYS">
+                     <children>
+                        <ScrollPane fitToHeight="true" fitToWidth="true" style="-fx-border-color: #F6F7FC; -fx-background-color: #F6F7FC;" VBox.vgrow="ALWAYS">
+                           <content>
+                              <VBox spacing="2.0" style="-fx-background-color: #F6F7FC; -fx-border-color: #F6F7FC;">
+                                 <children>
+                                    <VBox spacing="20.0" style="-fx-background-color: white;">
+                                       <children>
+                                          <VBox>
+                                             <children>
+                                                <HBox alignment="CENTER_LEFT" spacing="10.0">
+                                                   <children>
+                                                      <VBox alignment="CENTER_RIGHT" prefWidth="90.0">
+                                                         <children>
+                                                            <Label text="Mã nhân viên" textFill="#7f7f7f">
+                                                               <font>
+                                                                  <Font name="Segoe UI Bold" size="13.0" />
+                                                               </font>
+                                                            </Label>
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox HBox.hgrow="ALWAYS">
+                                                         <children>
+                                                            <TextField fx:id="txtMaNhanVien" promptText="Mã nhân viên" style="-fx-background-color: white; -fx-border-color: #EDEDED; -fx-background-radius: 15; -fx-border-radius: 15; -fx-text-fill: #7f7f7f;">
+                                                               <font>
+                                                                  <Font name="Segoe UI" size="13.0" />
+                                                               </font>
+                                                               <padding>
+                                                                  <Insets bottom="7.0" left="10.0" right="10.0" top="7.0" />
+                                                               </padding>
+                                                            </TextField>
+                                                            <HBox fx:id="boxMaNhanVienError">
+                                                               <padding>
+                                                                  <Insets left="12.0" top="3.0" />
+                                                               </padding>
+                                                            </HBox>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </HBox>
+                                             </children>
+                                          </VBox>
+                                          <VBox layoutX="35.0" layoutY="30.0">
+                                             <children>
+                                                <HBox alignment="CENTER_LEFT" spacing="10.0">
+                                                   <children>
+                                                      <VBox alignment="CENTER_RIGHT" prefWidth="90.0">
+                                                         <children>
+                                                            <Label text="Họ và tên" textFill="#7f7f7f">
+                                                               <font>
+                                                                  <Font name="Segoe UI Bold" size="13.0" />
+                                                               </font>
+                                                            </Label>
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox HBox.hgrow="ALWAYS">
+                                                         <children>
+                                                            <TextField fx:id="txtHoVaTen" promptText="Họ và tên" style="-fx-background-color: white; -fx-border-color: #EDEDED; -fx-background-radius: 15; -fx-border-radius: 15; -fx-text-fill: #7f7f7f;">
+                                                               <font>
+                                                                  <Font name="Segoe UI" size="13.0" />
+                                                               </font>
+                                                               <padding>
+                                                                  <Insets bottom="7.0" left="10.0" right="10.0" top="7.0" />
+                                                               </padding>
+                                                            </TextField>
+                                                            <HBox fx:id="boxHoVaTenError">
+                                                               <padding>
+                                                                  <Insets left="12.0" top="3.0" />
+                                                               </padding>
+                                                            </HBox>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </HBox>
+                                             </children>
+                                          </VBox>
+                                          <VBox layoutX="35.0" layoutY="84.0">
+                                             <children>
+                                                <HBox alignment="CENTER_LEFT" spacing="10.0">
+                                                   <children>
+                                                      <VBox alignment="CENTER_RIGHT" prefWidth="90.0">
+                                                         <children>
+                                                            <Label text="Chức vụ" textFill="#7f7f7f">
+                                                               <font>
+                                                                  <Font name="Segoe UI Bold" size="13.0" />
+                                                               </font>
+                                                            </Label>
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox HBox.hgrow="ALWAYS">
+                                                         <children>
+                                                            <ComboBox fx:id="cbxChucVu" prefWidth="300.0" promptText="Chức vụ" style="-fx-background-color: whitr; -fx-border-color: #EDEDED; -fx-background-radius: 15; -fx-border-radius: 15; -fx-text-fill: #7f7f7f;">
+                                                               <padding>
+                                                                  <Insets bottom="3.0" left="10.0" right="10.0" top="3.0" />
+                                                               </padding>
+                                                            </ComboBox>
+                                                            <HBox fx:id="boxChucVuError">
+                                                               <padding>
+                                                                  <Insets left="12.0" top="3.0" />
+                                                               </padding>
+                                                            </HBox>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </HBox>
+                                                <HBox>
+                                                   <children>
+                                                      <VBox prefWidth="90.0" />
+                                                      <VBox HBox.hgrow="ALWAYS" />
+                                                   </children>
+                                                </HBox>
+                                             </children>
+                                          </VBox>
+                                          <VBox layoutX="35.0" layoutY="84.0">
+                                             <children>
+                                                <HBox alignment="CENTER_LEFT" spacing="10.0">
+                                                   <children>
+                                                      <VBox alignment="CENTER_RIGHT" prefWidth="90.0">
+                                                         <children>
+                                                            <Label text="CMND/CCCD" textFill="#7f7f7f">
+                                                               <font>
+                                                                  <Font name="Segoe UI Bold" size="13.0" />
+                                                               </font>
+                                                            </Label>
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox HBox.hgrow="ALWAYS">
+                                                         <children>
+                                                            <TextField fx:id="txtCCCD" promptText="CCCD/CMND" style="-fx-background-color: white; -fx-border-color: #EDEDED; -fx-background-radius: 15; -fx-border-radius: 15; -fx-text-fill: #7f7f7f;">
+                                                               <font>
+                                                                  <Font name="Segoe UI" size="13.0" />
+                                                               </font>
+                                                               <padding>
+                                                                  <Insets bottom="7.0" left="10.0" right="10.0" top="7.0" />
+                                                               </padding>
+                                                            </TextField>
+                                                            <HBox fx:id="boxCCCDError">
+                                                               <padding>
+                                                                  <Insets left="12.0" top="3.0" />
+                                                               </padding>
+                                                            </HBox>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </HBox>
+                                             </children>
+                                          </VBox>
+                                          <VBox layoutX="35.0" layoutY="137.0">
+                                             <children>
+                                                <HBox alignment="CENTER_LEFT" spacing="10.0">
+                                                   <children>
+                                                      <VBox alignment="CENTER_RIGHT" prefWidth="90.0">
+                                                         <children>
+                                                            <Label text="Email" textFill="#7f7f7f">
+                                                               <font>
+                                                                  <Font name="Segoe UI Bold" size="13.0" />
+                                                               </font>
+                                                            </Label>
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox HBox.hgrow="ALWAYS">
+                                                         <children>
+                                                            <TextField fx:id="txtEmail" promptText="Email" style="-fx-background-color: white; -fx-border-color: #EDEDED; -fx-background-radius: 15; -fx-border-radius: 15; -fx-text-fill: #7f7f7f;">
+                                                               <font>
+                                                                  <Font name="Segoe UI" size="13.0" />
+                                                               </font>
+                                                               <padding>
+                                                                  <Insets bottom="7.0" left="10.0" right="10.0" top="7.0" />
+                                                               </padding>
+                                                            </TextField>
+                                                            <HBox fx:id="boxEmailError">
+                                                               <padding>
+                                                                  <Insets left="12.0" top="3.0" />
+                                                               </padding>
+                                                            </HBox>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </HBox>
+                                             </children>
+                                          </VBox>
+                                          <VBox layoutX="35.0" layoutY="191.0">
+                                             <children>
+                                                <HBox alignment="CENTER_LEFT" spacing="10.0">
+                                                   <children>
+                                                      <VBox alignment="CENTER_RIGHT" prefWidth="90.0">
+                                                         <children>
+                                                            <Label text="Số điện thoại" textFill="#7f7f7f">
+                                                               <font>
+                                                                  <Font name="Segoe UI Bold" size="13.0" />
+                                                               </font>
+                                                            </Label>
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox HBox.hgrow="ALWAYS">
+                                                         <children>
+                                                            <TextField fx:id="txtSoDienThoai" promptText="Số điện thoại" style="-fx-background-color: white; -fx-border-color: #EDEDED; -fx-background-radius: 15; -fx-border-radius: 15; -fx-text-fill: #7f7f7f;">
+                                                               <font>
+                                                                  <Font name="Segoe UI" size="13.0" />
+                                                               </font>
+                                                               <padding>
+                                                                  <Insets bottom="7.0" left="10.0" right="10.0" top="7.0" />
+                                                               </padding>
+                                                            </TextField>
+                                                            <HBox fx:id="boxSoDienThoaiError">
+                                                               <padding>
+                                                                  <Insets left="12.0" top="3.0" />
+                                                               </padding>
+                                                            </HBox>
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </HBox>
+                                             </children>
+                                          </VBox>
+                                          <VBox layoutX="35.0" layoutY="244.0">
+                                             <children>
+                                                <HBox alignment="CENTER_LEFT" spacing="10.0">
+                                                   <children>
+                                                      <VBox alignment="CENTER_RIGHT" prefWidth="90.0">
+                                                         <children>
+                                                            <Label text="Giới tính" textFill="#7f7f7f">
+                                                               <font>
+                                                                  <Font name="Segoe UI Bold" size="13.0" />
+                                                               </font>
+                                                            </Label>
+                                                         </children>
+                                                      </VBox>
+                                                      <HBox spacing="10.0" HBox.hgrow="ALWAYS">
+                                                         <children>
+                                                            <HBox fx:id="btnNam" alignment="CENTER" prefWidth="70.0" spacing="10.0" style="-fx-background-color: white; -fx-border-color: #0C75F5; -fx-border-radius: 15; -fx-background-radius: 15;">
+                                                               <children>
+                                                                  <Label fx:id="lblBtnNam" text="Nam" textFill="#cecece">
+                                                                     <font>
+                                                                        <Font name="Segoe UI Semibold" size="13.0" />
+                                                                     </font>
+                                                                  </Label>
+                                                               </children>
+                                                               <padding>
+                                                                  <Insets bottom="4.5" left="13.0" right="13.0" top="4.5" />
+                                                               </padding>
+                                                            </HBox>
+                                                            <HBox fx:id="btnNu" alignment="CENTER" layoutX="10.0" layoutY="10.0" prefWidth="70.0" spacing="10.0" style="-fx-background-color: #FFA500; -fx-border-color: #FFA500; -fx-border-radius: 15; -fx-background-radius: 15;">
+                                                               <children>
+                                                                  <Label fx:id="lblBtnNu" text="Nữ" textFill="WHITE">
+                                                                     <font>
+                                                                        <Font name="Segoe UI Semibold" size="13.0" />
+                                                                     </font>
+                                                                  </Label>
+                                                               </children>
+                                                               <padding>
+                                                                  <Insets bottom="4.5" left="13.0" right="13.0" top="4.5" />
+                                                               </padding>
+                                                            </HBox>
+                                                         </children>
+                                                         <HBox.margin>
+                                                            <Insets left="5.0" />
+                                                         </HBox.margin>
+                                                      </HBox>
+                                                   </children>
+                                                </HBox>
+                                                <HBox>
+                                                   <children>
+                                                      <VBox prefWidth="90.0" />
+                                                      <VBox HBox.hgrow="ALWAYS" />
+                                                   </children>
+                                                </HBox>
+                                             </children>
+                                          </VBox>
+                                          <VBox alignment="CENTER" spacing="10.0">
+                                             <children>
+                                                <Label text="Ngày sinh" textFill="#7f7f7f">
+                                                   <font>
+                                                      <Font name="Segoe UI Bold" size="13.0" />
+                                                   </font>
+                                                </Label>
+                                                <HBox alignment="CENTER" spacing="20.0">
+                                                   <children>
+                                                      <ComboBox fx:id="cbxNgay" prefWidth="130.0" promptText="Ngày" style="-fx-background-color: whitr; -fx-border-color: #EDEDED; -fx-background-radius: 15; -fx-border-radius: 15; -fx-text-fill: #7f7f7f;">
+                                                         <padding>
+                                                            <Insets bottom="3.0" left="10.0" right="10.0" top="3.0" />
+                                                         </padding>
+                                                      </ComboBox>
+                                                      <ComboBox fx:id="cbxThang" layoutX="10.0" layoutY="10.0" prefWidth="170.0" promptText="Tháng" style="-fx-background-color: whitr; -fx-border-color: #EDEDED; -fx-background-radius: 15; -fx-border-radius: 15;">
+                                                         <padding>
+                                                            <Insets bottom="3.0" left="10.0" right="10.0" top="3.0" />
+                                                         </padding>
+                                                      </ComboBox>
+                                                      <ComboBox fx:id="cbxNam" layoutX="130.0" layoutY="10.0" prefWidth="130.0" promptText="Năm" style="-fx-background-color: whitr; -fx-border-color: #EDEDED; -fx-background-radius: 15; -fx-border-radius: 15;">
+                                                         <padding>
+                                                            <Insets bottom="3.0" left="10.0" right="10.0" top="3.0" />
+                                                         </padding>
+                                                      </ComboBox>
+                                                   </children>
+                                                </HBox>
+                                                <HBox fx:id="boxNgaySinhError" alignment="CENTER" />
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                       <padding>
+                                          <Insets bottom="20.0" left="25.0" right="160.0" top="20.0" />
+                                       </padding>
+                                    </VBox>
+                                    <VBox spacing="17.0" style="-fx-background-color: white;" VBox.vgrow="ALWAYS">
+                                       <children>
+                                          <HBox>
+                                             <children>
+                                                <Label text="Thông tin địa chỉ" textFill="#7f7f7f">
+                                                   <font>
+                                                      <Font name="Segoe UI Bold" size="14.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </HBox>
+                                          <VBox spacing="7.0">
+                                             <children>
+                                                <HBox spacing="40.0">
+                                                   <children>
+                                                      <VBox spacing="7.0">
+                                                         <children>
+                                                            <Label text="Tỉnh/TP" textFill="#7f7f7f">
+                                                               <font>
+                                                                  <Font name="Segoe UI Bold" size="13.0" />
+                                                               </font>
+                                                               <VBox.margin>
+                                                                  <Insets left="5.0" />
+                                                               </VBox.margin>
+                                                            </Label>
+                                                            <ComboBox fx:id="cbxTinhTP" prefWidth="270.0" promptText="Tỉnh/TP" style="-fx-background-color: whitr; -fx-border-color: #EDEDED; -fx-background-radius: 15; -fx-border-radius: 15;" VBox.vgrow="ALWAYS">
+                                                               <padding>
+                                                                  <Insets bottom="3.0" left="10.0" right="10.0" top="3.0" />
+                                                               </padding>
+                                                            </ComboBox>
+                                                            <HBox fx:id="boxTinhTPError" />
+                                                         </children>
+                                                      </VBox>
+                                                      <VBox layoutX="10.0" layoutY="10.0" spacing="7.0">
+                                                         <children>
+                                                            <Label text="Quận/Huyện" textFill="#7f7f7f">
+                                                               <font>
+                                                                  <Font name="Segoe UI Bold" size="13.0" />
+                                                               </font>
+                                                               <VBox.margin>
+                                                                  <Insets left="5.0" />
+                                                               </VBox.margin>
+                                                            </Label>
+                                                            <ComboBox fx:id="cbxQuanHuyen" prefWidth="270.0" promptText="Quận/Huyện" style="-fx-background-color: whitr; -fx-border-color: #EDEDED; -fx-background-radius: 15; -fx-border-radius: 15;">
+                                                               <padding>
+                                                                  <Insets bottom="3.0" left="10.0" right="10.0" top="3.0" />
+                                                               </padding>
+                                                            </ComboBox>
+                                                            <HBox fx:id="boxQuanHuyenError" />
+                                                         </children>
+                                                      </VBox>
+                                                      <HBox>
+                                                         <children>
+                                                            <VBox spacing="7.0" HBox.hgrow="ALWAYS">
+                                                               <children>
+                                                                  <Label text="Xã/Phường" textFill="#7f7f7f">
+                                                                     <font>
+                                                                        <Font name="Segoe UI Bold" size="13.0" />
+                                                                     </font>
+                                                                     <VBox.margin>
+                                                                        <Insets left="5.0" />
+                                                                     </VBox.margin>
+                                                                  </Label>
+                                                                  <ComboBox fx:id="cbxXaPhuong" prefWidth="270.0" promptText="Xã/Phường" style="-fx-background-color: whitr; -fx-border-color: #EDEDED; -fx-background-radius: 15; -fx-border-radius: 15;" VBox.vgrow="ALWAYS">
+                                                                     <padding>
+                                                                        <Insets bottom="3.0" left="10.0" right="10.0" top="3.0" />
+                                                                     </padding>
+                                                                  </ComboBox>
+                                                                  <HBox fx:id="boxXaPhuongError" />
+                                                               </children>
+                                                            </VBox>
+                                                         </children>
+                                                      </HBox>
+                                                   </children>
+                                                </HBox>
+                                                <HBox layoutX="25.0" layoutY="83.0">
+                                                   <children>
+                                                      <VBox spacing="7.0" HBox.hgrow="ALWAYS">
+                                                         <children>
+                                                            <Label text="Địa chỉ chi tiết" textFill="#7f7f7f">
+                                                               <font>
+                                                                  <Font name="Segoe UI Bold" size="13.0" />
+                                                               </font>
+                                                               <VBox.margin>
+                                                                  <Insets left="5.0" />
+                                                               </VBox.margin>
+                                                            </Label>
+                                                            <TextField fx:id="txtDiaChiChiTiet" promptText="Địa chỉ chi tiết" style="-fx-background-color: white; -fx-border-color: #EDEDED; -fx-background-radius: 15; -fx-border-radius: 15; -fx-text-fill: #7f7f7f;">
+                                                               <font>
+                                                                  <Font name="Segoe UI" size="13.0" />
+                                                               </font>
+                                                               <padding>
+                                                                  <Insets bottom="7.0" left="10.0" right="10.0" top="7.0" />
+                                                               </padding>
+                                                            </TextField>
+                                                            <HBox fx:id="boxDiaChiChiTietError" />
+                                                         </children>
+                                                      </VBox>
+                                                   </children>
+                                                </HBox>
+                                             </children>
+                                             <padding>
+                                                <Insets left="15.0" right="15.0" />
+                                             </padding>
+                                          </VBox>
+                                       </children>
+                                       <padding>
+                                          <Insets bottom="20.0" left="25.0" right="100.0" top="20.0" />
+                                       </padding>
+                                    </VBox>
+                                    <VBox style="-fx-background-color: white;">
+                                       <padding>
+                                          <Insets bottom="20.0" left="25.0" right="25.0" top="20.0" />
+                                       </padding>
+                                    </VBox>
+                                 </children>
+                              </VBox>
+                           </content>
+                           <VBox.margin>
+                              <Insets left="-2.0" />
+                           </VBox.margin>
+                        </ScrollPane>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </center>
+</BorderPane>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="170.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="15.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER_LEFT">
+         <children>
+            <ImageView fx:id="imageView" fitHeight="130.0" fitWidth="130.0" pickOnBounds="true" preserveRatio="true" style="-fx-background-color: grey;">
+               <image>
+                  <Image url="@../drawable/no-image_available.png" />
+               </image>
+            </ImageView>
+            <VBox HBox.hgrow="ALWAYS">
+               <children>
+                  <VBox alignment="CENTER_LEFT" VBox.vgrow="ALWAYS">
+                     <children>
+                        <Label text="Đường dẫn hình ảnh" textFill="#a7a9ac">
+                           <font>
+                              <Font name="Segoe UI Semibold" size="13.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="2.0" />
+                           </VBox.margin>
+                        </Label>
+                        <HBox spacing="7.0">
+                           <children>
+                              <TextField id="txtTenSanPham" fx:id="txtImageAddress" focusTraversable="false" style="-fx-background-color: white; -fx-border-radius: 5; -fx-background-radius: 5; -fx-border-color: #CFD4D9;" HBox.hgrow="ALWAYS">
+                                 <padding>
+                                    <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+                                 </padding>
+                                 <font>
+                                    <Font name="Segoe UI" size="13.0" />
+                                 </font>
+                              </TextField>
+                              <Button fx:id="btnLoad" minHeight="32.0" mnemonicParsing="false" prefWidth="55.0" style="-fx-background-color: #417fdc;" text="Load" textFill="WHITE">
+                                 <font>
+                                    <Font name="Segoe UI Semibold" size="13.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <Label fx:id="lblError" layoutX="10.0" layoutY="10.0" textFill="RED">
+                           <font>
+                              <Font name="Segoe UI Semilight Italic" size="12.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="5.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                  </VBox>
+                  <HBox alignment="BOTTOM_RIGHT" fillHeight="false" spacing="7.0">
+                     <children>
+                        <HBox alignment="CENTER_LEFT" spacing="7.0" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Button fx:id="btnChonTuMayTinh" mnemonicParsing="false" prefWidth="150.0" style="-fx-background-color: #0099ff; -fx-background-radius: 15; -fx-border-radius: 15;" text="Chọn từ máy tính" textFill="WHITE">
+                                 <font>
+                                    <Font name="Segoe UI Semibold" size="13.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <HBox alignment="CENTER_RIGHT" layoutX="266.0" layoutY="10.0" spacing="7.0" HBox.hgrow="ALWAYS">
+                           <children>
+                              <Button fx:id="btnThem" mnemonicParsing="false" prefWidth="70.0" style="-fx-background-color: #0099ff; -fx-background-radius: 15; -fx-border-radius: 15;" text="Thêm" textFill="WHITE">
+                                 <font>
+                                    <Font name="Segoe UI Semibold" size="13.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="btnThoat" mnemonicParsing="false" prefWidth="70.0" style="-fx-background-color: #C4C4C4; -fx-background-radius: 15; -fx-border-radius: 15;" text="Thoát" textFill="WHITE">
+                                 <font>
+                                    <Font name="Segoe UI Semibold" size="13.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </HBox>
+   </center>
+</BorderPane>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45453d6d-9f0e-43d6-b3c0-e7355c5ace2b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/utlis/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoftServer/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoftServer/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoftServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoftServer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoftServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoftServer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/dao/DanhMucDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/dao/DanhMucDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/dao/MauSacDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/dao/MauSacDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/dao/SanPhamDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/dao/SanPhamDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/dao/VaiTroDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/dao/VaiTroDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/model/ChiTietDonNhapHang.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/model/ChiTietDonNhapHang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/model/DanhMuc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/model/DanhMuc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/model/DonHang.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/model/DonHang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/model/DonNhapHang.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/model/DonNhapHang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/model/MauSac.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/model/MauSac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/model/NhaCungCap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/model/NhaCungCap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/model/PhieuTraHang.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/model/PhieuTraHang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/model/ThuongHieu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/model/ThuongHieu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/model/VaiTro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/model/VaiTro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/model/VaiTroNhomQuyen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/model/VaiTroNhomQuyen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/service/VaiTroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/service/VaiTroService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/service_impl/VaiTroServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MotoSoftServer/src/main/java/com/example/service_impl/VaiTroServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2FvogqfiIaj9k72xbbwPJt3io8C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Lap trinh phan tan Java/Moto-Soft/MotoSoft&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Lap trinh phan tan Java\Moto-Soft\MotoSoft\src\main\resources\com\example\fashionshop\views" />
+      <recent name="D:\Lap trinh phan tan Java\Moto-Soft\MotoSoft\src\main\resources\com\example\fashionshop\cus_comp_views" />
+      <recent name="D:\Lap trinh phan tan Java\BTL_LTPT_JAVA_HIBERNATE\FashionShop\src\main\resources\com\example\fashionshop\cus_comp_views" />
+      <recent name="D:\Lap trinh phan tan Java\BTL_LTPT_JAVA\FashionShop\src\main\resources\com\example\fashionshop\views" />
+      <recent name="D:\Project\FashionShop\src\main\resources\com\example\fashionshop\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\FashionShop\src\main\resources\com\example\fashionshop\pages" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.fashionshop.controller" />
+      <recent name="com.example.fashionshop.cus_comp" />
+      <recent name="com.example.fashionshop.dao" />
+      <recent name="com.example.fashionshop.impl" />
+      <recent name="com.example.fashionshop.service" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MotoSoftApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.fashionshop.MotoSoftApp" />
+      <module name="MotoSoft" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.fashionshop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MotoSoftApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45453d6d-9f0e-43d6-b3c0-e7355c5ace2b" name="Changes" comment="" />
+      <created>1665375630362</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665375630362</updated>
+      <workItem from="1666193314732" duration="411000" />
+      <workItem from="1666193864716" duration="1758000" />
+      <workItem from="1666621745818" duration="106000" />
+      <workItem from="1666702083140" duration="17000" />
+      <workItem from="1666718590978" duration="13000" />
+      <workItem from="1666718628169" duration="17000" />
+      <workItem from="1668522667169" duration="10141000" />
+      <workItem from="1668613254437" duration="4782000" />
+      <workItem from="1668745813060" duration="5000" />
+      <workItem from="1668745861443" duration="1232000" />
+      <workItem from="1668748949352" duration="2466000" />
+      <workItem from="1668752126474" duration="3965000" />
+      <workItem from="1668760316704" duration="13404000" />
+      <workItem from="1668787060801" duration="3847000" />
+      <workItem from="1668820561182" duration="12586000" />
+      <workItem from="1668841116402" duration="5360000" />
+      <workItem from="1668865775202" duration="44000" />
+      <workItem from="1668865871658" duration="11084000" />
+      <workItem from="1668913186638" duration="8498000" />
+      <workItem from="1668928704672" duration="43000" />
+      <workItem from="1668935413611" duration="3454000" />
+      <workItem from="1668953131704" duration="1227000" />
+      <workItem from="1669001142287" duration="24647000" />
+      <workItem from="1669093624149" duration="596000" />
+      <workItem from="1669120069492" duration="9984000" />
+      <workItem from="1669131556318" duration="295000" />
+      <workItem from="1669131945321" duration="142000" />
+      <workItem from="1669274930288" duration="14650000" />
+      <workItem from="1669292239431" duration="18771000" />
+      <workItem from="1669336344963" duration="4727000" />
+      <workItem from="1669344278188" duration="600000" />
+      <workItem from="1669386385596" duration="14000" />
+      <workItem from="1669899171208" duration="630000" />
+      <workItem from="1669904953437" duration="1893000" />
+      <workItem from="1669963180232" duration="763000" />
+      <workItem from="1671118744207" duration="171000" />
+      <workItem from="1671120149582" duration="181000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

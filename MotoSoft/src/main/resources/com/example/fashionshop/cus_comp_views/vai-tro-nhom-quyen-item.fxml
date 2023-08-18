@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" type="VBox" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <CheckBox fx:id="ckbNhomQuyen" mnemonicParsing="false" text="Tên nhóm quyền">
+         <font>
+            <Font name="Segoe UI Bold" size="13.0" />
+         </font>
+      </CheckBox>
+      <VBox fx:id="boxQuyen" spacing="7.0">
+         <VBox.margin>
+            <Insets left="15.0" top="10.0" />
+         </VBox.margin>
+      </VBox>
+   </children>
+   <padding>
+      <Insets bottom="7.0" left="7.0" right="7.0" top="7.0" />
+   </padding>
+</fx:root>

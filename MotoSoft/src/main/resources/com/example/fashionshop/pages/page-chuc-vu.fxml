@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+
+<fx:root prefHeight="570.0" prefWidth="1100.0" spacing="20.0" style="-fx-border-color: #F1F6FC; -fx-background-radius: 10; -fx-border-radius: 10;" type="VBox" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="38.0" prefWidth="1278.0" spacing="30.0">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <children>
+            <HBox alignment="CENTER_LEFT" fillHeight="false">
+               <children>
+                  <Button id="btnThemMoi" fx:id="btnThem" mnemonicParsing="false" prefHeight="35.0" prefWidth="120.0" style="-fx-background-color: #E5A345;" text="Thêm mới" textFill="WHITE">
+                     <graphic>
+                        <Group>
+                           <children>
+                              <SVGPath content="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" fill="WHITE" scaleX="0.03" scaleY="0.03" />
+                           </children>
+                        </Group>
+                     </graphic>
+                     <font>
+                        <Font name="Segoe UI Semibold" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_RIGHT" fillHeight="false" prefHeight="16.0" prefWidth="506.0" spacing="10.0">
+               <children>
+                  <Label text="Tìm kiếm:" textFill="#8d8f8d">
+                     <font>
+                        <Font name="Segoe UI" size="13.0" />
+                     </font>
+                  </Label>
+                  <HBox alignment="CENTER_LEFT" prefHeight="35.0" prefWidth="434.0" style="-fx-background-color: white; -fx-background-radius: 5; -fx-border-radius: 5; -fx-border-color: #CFD4D9;">
+                     <children>
+                        <TextField id="txtTimKiem" fx:id="txtTimKiem" style="-fx-background-color: white; -fx-border-color: white;" HBox.hgrow="ALWAYS" />
+                        <Group>
+                           <children>
+                              <SVGPath fx:id="btnTimKiem" content="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z" fill="#cfd4d9" scaleX="0.03" scaleY="0.03" />
+                           </children>
+                        </Group>
+                     </children>
+                     <padding>
+                        <Insets bottom="3.0" left="3.0" right="10.0" top="3.0" />
+                     </padding>
+                  </HBox>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <TableView fx:id="tableView" editable="true" prefHeight="520.0" prefWidth="1058.0">
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</fx:root>
